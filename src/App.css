@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    font-family: "Open Sans", serif;
+    background-color: rgb(212, 231, 255);
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+.emloyees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 10px 10px 10px;
+}
+.form1 {
+    width: 220px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+.form1 h1 {
+    text-align: center;
+}
+.oBtn {
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgb(103, 103, 103);
+    width: 16px;
+    height: 16px;
+}
+.oBtn:focus {
+    background: rgba(0,0,0,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,0,0,1)), color-stop(49%, rgba(0,0,0,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=1 );
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.oBtnNotActive {
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+}
+.elem1 {
+    width: 1000px;
+    margin-top: 10px; 
+}
+.elem1H1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(104, 154, 255);
+    padding: 5px 5px 5px 5px;
+    margin: -2px -2px 0 -2px;
+}
+.h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(104, 154, 255);
+    padding: 5px 5px 5px 5px;
+    margin: 0 -2px 0 -2px;
+}
+.elem2 {
+    width: 400px;
+    margin-top: 10px;
+}
+.h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(104, 154, 255);
+    padding: 4px 5px 5px 5px;
+    margin: 0 -4px 0 -4px;
+}
+.pBrthd {
+    font-size: 17px;
+    font-weight: 520;
+    margin-left: 13px;
+}
+.hh {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(104, 154, 255);
+    width: 300px;
+}
+span {
+    font-size: 13px;
+    font-weight: 200;
+}
+.f1 {
+    display: grid;
+    align-content: stretch;
+    justify-content: start;
+    align-items: start;
+    justify-items: start;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.pF1 {
+    margin: 1px;
+}
+.birthday {
+    display: grid;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 10px;
+    align-content: space-around;
+    justify-content: center;
+    align-items: start;
+    justify-items: stretch;
+}
+.NE {
+    text-align: center;
+}
